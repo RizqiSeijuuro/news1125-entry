@@ -308,6 +308,8 @@ STORIES = [
 
 
 def build_image():
+    # NOTE: all coordinates below are derived from WIDTH/HEIGHT/MARGIN/GAP
+    # constants so the 2x3 card grid stays centered if those are tuned later.
     img = Image(WIDTH, HEIGHT, BG)
 
     # Title bar
